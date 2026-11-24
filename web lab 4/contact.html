@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us - ShopEase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+function darkMode() {
+    document.body.classList.toggle("dark");
+
+    let btn = document.querySelector(".dark-btn");
+
+    if (document.body.classList.contains("dark")) {
+        btn.innerHTML = "Light Mode";
+    } else {
+        btn.innerHTML = "Dark Mode";
+    }
+}
+</script>
+<body>
+
+    <header>
+        <img src="logo.jpg" alt="ShopEase Logo" width="30">
+        <h2>ShopEase</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+  <button class="dark-btn" onclick="darkMode()">Dark Mode</button>
+    <hr>
+
+    <div class="contact-container">
+
+       
+        <section>
+            <h2>Get in Touch</h2>
+
+            <p>
+                We'd love to hear from you.
+                Feel free to contact us for any queries or support.
+            </p>
+
+            <form>
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name"
+                       placeholder="Enter your name" required>
+                <br><br>
+
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email"
+                       placeholder="Enter your email" required>
+                <br><br>
+
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone"
+                       placeholder="Enter your phone number">
+                <br><br>
+
+                <label for="subject">Subject</label><br>
+                <input type="text" id="subject"
+                       placeholder="Enter subject">
+                <br><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" rows="5" cols="30"
+                          placeholder="Enter your message"
+                          required></textarea>
+                <br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+       
+        <section>
+            <h3>Contact Information</h3>
+
+            <h4>Address</h4>
+            <p>Sector 7 Chandigarh</p>
+
+            <h4>Email</h4>
+            <p>shopease...@gmail.com</p>
+
+            <h4>Phone</h4>
+            <p>+91 91412xxxxx</p>
+
+            <h3>Follow Us</h3>
+
+            <a href="https://www.instagram.com">Instagram</a> |
+            <a href="https://www.twitter.com">Twitter</a> |
+            <a href="https://www.youtube.com">YouTube</a>
+        </section>
+
+    </div>
+
+    <hr>
+
+</body>
+</html>

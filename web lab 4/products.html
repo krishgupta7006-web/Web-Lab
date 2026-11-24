@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products - ShopEase</title>
+
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.jpg" alt="ShopEase Logo" width="40">
+        <h1>ShopEase</h1>
+        <p>Everything You Love, Delivered with Ease</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="search"
+            placeholder="Search products..."
+        >
+    </div>
+
+    <button class="dark-btn" onclick="darkMode()">
+        Dark Mode
+    </button>
+
+    <section>
+
+        <div class="products card">
+            <img src="sneakers.jpg" alt="Casual Sneakers" width="200">
+            <h3>Casual Sneakers</h3>
+            <p>Price: ₹1,299</p>
+            <p>Comfortable and stylish shoes for everyday use.</p>
+
+            <button type="button" onclick="showDetails(this)">
+                View Details
+            </button>
+
+            <button type="button" class="wishlistBtn">
+                ♡ Add to Wishlist
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="products card">
+            <img src="watch.jpg" alt="Smart Watch" width="200">
+            <h3>Smart Watch</h3>
+            <p>Price: ₹2,999</p>
+            <p>Track your daily activities with this smart watch.</p>
+
+            <button type="button" onclick="showDetails(this)">
+                View Details
+            </button>
+
+            <button type="button" class="wishlistBtn">
+                ♡ Add to Wishlist
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="products card">
+            <img src="handbag.jpg" alt="Stylish Handbag" width="200">
+            <h3>Stylish Handbag</h3>
+            <p>Price: ₹1,899</p>
+            <p>A fashionable handbag for daily use.</p>
+
+            <button type="button" onclick="showDetails(this)">
+                View Details
+            </button>
+
+            <button type="button" class="wishlistBtn">
+                ♡ Add to Wishlist
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="products card">
+            <img src="headphones.jpg" alt="Wireless Headphones" width="200">
+            <h3>Wireless Headphones</h3>
+            <p>Price: ₹2,499</p>
+            <p>Enjoy clear sound with wireless headphones.</p>
+
+            <button type="button" onclick="showDetails(this)">
+                View Details
+            </button>
+
+            <button type="button" class="wishlistBtn">
+                ♡ Add to Wishlist
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="products card">
+            <img src="sunglasses.jpg" alt="Sunglasses" width="200">
+            <h3>Sunglasses</h3>
+            <p>Price: ₹799</p>
+            <p>Stylish sunglasses for outdoor activities.</p>
+
+            <button type="button" onclick="showDetails(this)">
+                View Details
+            </button>
+
+            <button type="button" class="wishlistBtn">
+                ♡ Add to Wishlist
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="products card">
+            <img src="hoodie.jpg" alt="Men's Hoodie" width="200">
+            <h3>Men's Hoodie</h3>
+            <p>Price: ₹1,499</p>
+            <p>A comfortable hoodie for everyday wear.</p>
+
+            <button type="button" onclick="showDetails(this)">
+                View Details
+            </button>
+
+            <button type="button" class="wishlistBtn">
+                ♡ Add to Wishlist
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="products card">
+            <img src="camera.jpg" alt="Digital Camera" width="200">
+            <h3>Digital Camera</h3>
+            <p>Price: ₹4,999</p>
+            <p>Capture your favourite moments with ease.</p>
+
+            <button type="button" onclick="showDetails(this)">
+                View Details
+            </button>
+
+            <button type="button" class="wishlistBtn">
+                ♡ Add to Wishlist
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="products card">
+            <img src="perfume.jpg" alt="Perfume" width="200">
+            <h3>Perfume</h3>
+            <p>Price: ₹1,299</p>
+            <p>A refreshing fragrance for everyday use.</p>
+
+            <button type="button" onclick="showDetails(this)">
+                View Details
+            </button>
+
+            <button type="button" class="wishlistBtn">
+                ♡ Add to Wishlist
+            </button>
+        </div>
+
+    </section>
+
+    <div id="productPopup" style="display:none;">
+
+        <h2 id="popupName"></h2>
+        <p id="popupPrice"></p>
+        <p id="popupDescription"></p>
+
+        <button onclick="closePopup()">Close</button>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ShopEase. All Rights Reserved.</p>
+
+        <a href="https://www.facebook.com">Facebook</a> |
+        <a href="https://www.instagram.com">Instagram</a> |
+        <a href="https://www.youtube.com">YouTube</a>
+    </footer>
+
+    <script src="script.js"></script>
+                                                
+
+</body>
+</html>

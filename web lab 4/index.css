@@ -1,0 +1,199 @@
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+
+.college-header {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.title-container h1 {
+    color: orange;
+}
+
+.navbar {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+.hero.section {
+    text-align: center;
+    background-color: lightyellow;
+    padding: 30px;
+}
+
+.hero.section h1 {
+    color: orangered;
+}
+
+
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+}
+
+.banner button {
+
+  
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+
+.featured-products {
+    text-align: center;
+    padding: 20px;
+}
+
+.featured-products h1 {
+    color: orangered;
+}
+
+.product-container {
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+}
+
+.product p {
+    color: orangered;
+}
+
+.product button {
+    background-color: orangered;
+    color: white;
+    padding: 8px;
+    border: none;
+}
+
+
+.categories {
+    text-align: center;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+.category {
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.category img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.sale {
+    text-align: center;
+    padding: 20px;
+    background-color: lightyellow;
+}
+
+.sale img {
+    width: 100%;
+    height: 250px;
+}
+
+.sale h1 {
+    color: red;
+}
+
+.sale button {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: orange;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.dark-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+body.dark .college-header,
+body.dark .hero,
+body.dark .featured-products,
+body.dark .categories,
+body.dark .sale,
+body.dark .product,
+body.dark .category {
+    background-color: #333;
+    color: white;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p {
+    color: white;
+}
+

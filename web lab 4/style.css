@@ -1,0 +1,101 @@
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: lightgray;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav {
+    background-color: black;
+    text-align:center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.contact-container {
+    display: grid;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+
+
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+h3 {
+    color: red;
+}
+
+.contact-container a {
+    color: peru;
+    text-decoration: none;
+}
+
+
+
+
+.dark-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+body.dark {
+    background-color: #222;
+    color: white;
+}
+
+body.dark header,
+body.dark section,
+body.dark .product,
+body.dark .category,
+body.dark .contact-container {
+    background-color: #333;
+    color: white;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark label {
+    color: white;
+}

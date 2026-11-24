@@ -1,0 +1,109 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header p {
+    margin-left: auto;
+}
+
+
+header img {
+    width: 40px;
+}
+
+nav {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+}
+
+section h2 {
+    color: plum;
+}
+
+.category {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.category img {
+    width: 150px;
+    height: 100px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+}
+
+
+
+.dark-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+body.dark {
+    background-color: #222;
+    color: white;
+}
+
+body.dark header,
+body.dark section,
+body.dark .product,
+body.dark .category,
+body.dark .contact-container {
+    background-color: #333;
+    color: white;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark label {
+    color: white;
+}
