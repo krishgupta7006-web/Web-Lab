@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GCET Jammu - My Results</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="dashboard-header">
+
+        <div class="dashboard-logo">
+
+            <img src="college.jpg" alt="GCET Logo">
+
+            <div>
+                <h2>GCET Jammu</h2>
+                <p>Student Portal</p>
+            </div>
+
+        </div>
+
+        <div class="student-top">
+            <span>🔔</span>
+            <span id="topName"> Krish Gupta</span>
+            <span id="topRoll"> 2512027</span>
+        </div>
+
+    </header>
+
+    <div class="dashboard-container">
+
+        <aside class="sidebar">
+
+            <a href="dashboard.html">Dashboard</a>
+
+            <a href="profile.html">My Profile</a>
+
+            <a href="courses.html">My Courses</a>
+
+           
+            <a href="results.html">My Results</a>
+
+            <a href="notice.html">Notice Board</a>
+
+            <a href="#" id="logoutLink">Logout</a>
+
+        </aside>
+
+        <main class="dashboard-main">
+
+            <h1>My Results</h1>
+
+            <p>View your semester examination results.</p>
+
+            <div class="dashboard-section">
+
+                <div class="personal-info">
+
+                    <h3>📊 Result Summary</h3>
+
+                    <p><b>Student Name: KRISH GUPTA</b> <span id="name"></span></p>
+
+                    <p><b>Roll No: 2512027</b> <span id="personalRoll"></span></p>
+
+                    <p><b>Branch: Computer Science and Engineering</b> <span id="personalBranch"></span></p>
+
+                    <p><b>Semester: 3rd</b> <span id="personalSemester"></span></p>
+
+                </div>
+
+            </div>
+
+            <div class="personal-info">
+
+                <h3>🎓 Examination Results</h3>
+
+                <table class="result-table">
+
+                    <thead>
+                        <tr>
+                            <th>S.No.</th>
+                            <th>Semester</th>
+                            <th>Exam Type</th>
+                            <th>Percentage</th>
+                            <th>CGPA</th>
+                            <th>Status</th>
+                            <th>View</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>1st Semester</td>
+                            <td>Regular</td>
+                            <td>72.5%</td>
+                            <td>7.5</td>
+                            <td><span class="pass-status">PASS</span></td>
+                            <td>
+                                <button class="view-btn" onclick="viewResult('1st Semester', '72.5%', '7.5')">
+                                    View
+                                </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>2nd Semester</td>
+                            <td>Regular</td>
+                            <td>68.4%</td>
+                            <td>7.1</td>
+                            <td><span class="pass-status">PASS</span></td>
+                            <td>
+                                <button class="view-btn" onclick="viewResult('2nd Semester', '68.4%', '7.1')">
+                                    View
+                                </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>3rd Semester</td>
+                            <td>Regular</td>
+                            <td>74.2%</td>
+                            <td>7.8</td>
+                            <td><span class="pass-status">PASS</span></td>
+                            <td>
+                                <button class="view-btn" onclick="viewResult('3rd Semester', '74.2%', '7.8')">
+                                    View
+                                </button>
+                            </td>
+                        </tr>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="dashboard.js"></script>
+
+    <script>
+
+        function viewResult(semester, percentage, cgpa) {
+
+            alert(
+                "Semester: " + semester +
+                "\nPercentage: " + percentage +
+                "\nCGPA: " + cgpa +
+                "\nStatus: PASS"
+            );
+
+        }
+
+    </script>
+
+</body>
+
+</html>

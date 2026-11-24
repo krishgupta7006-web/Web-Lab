@@ -1,0 +1,86 @@
+
+
+.college-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.title-container h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.title-container p {
+    margin: 5px;
+    font-size: 16px;
+}
+
+
+
+
+.dashboard-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 20px;
+}
+
+.personal-info {
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info h2 {
+    color: #2c7a4b;
+    margin-bottom: 20px;
+}
+
+.personal-info p {
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.personal-info button {
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.personal-info button:hover {
+    background-color: #00509e;
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+}
